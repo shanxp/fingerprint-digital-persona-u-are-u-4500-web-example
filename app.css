@@ -1,0 +1,113 @@
+﻿body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+span {
+    font-style: italic;
+}
+
+.container-fluid {
+  background-color:#0099cc;
+ }
+
+#Container {
+	margin: 20px auto;
+	width: 800px;
+	height: 800px;
+}
+
+#imagediv {
+	padding:0px;
+	margin: 0 auto;
+	width: 500px;
+	height: 500px;
+	overflow: hidden;
+    border: 1px solid rgba(51, 122, 183, 0.39);
+    display: table;
+}
+
+#imagediv img {
+	width: 100%;
+	height: 500px;
+}
+
+#imagediv div{
+	text-align: center;
+	vertical-align: middle;
+	height: 500px;
+	background: #d3d3d3;
+	display: table-cell;
+}
+
+
+#image {
+	width: 100%;
+}
+
+#imageGallery {
+	padding:0px;
+	margin: 0 auto;
+	width: 100%;
+	height: 100px;
+	overflow: hidden;
+}
+
+#imageGallery img{
+	float: left;
+	width:20%;
+	height: 100%
+}
+
+#deviceInfo {
+	padding:5px;
+	margin: 0 auto;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+
+#dynamicInfoDivs{
+	position: relative;
+	left: 30%;
+}
+
+#Scores {
+	margin: 0 auto;
+	width: 500px;
+    text-align:center;
+    border: 2px solid black; 
+}
+
+#status {
+    min-height: 22px;
+	text-align: center;
+	margin-bottom: 5px;
+	color: red;
+}
+
+#contentButtons{
+	padding: 5px;
+  	text-align: center;
+  	margin-bottom: 5px;
+}
+
+#readerDivButtons {
+	padding: 5px;
+  	text-align: center;
+  	margin-bottom: 5px;
+}
+
+#modalContent{
+	width: 350px;
+	margin: 0 auto;
+	padding : 5px;
+	text-align: left;
+	vertical-align: center;
+}
+
+#saveAndFormats{
+	position:relative;
+	left:660px;
+	top:-750px;
+	width:135px;
+}
